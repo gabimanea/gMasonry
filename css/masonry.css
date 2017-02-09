@@ -1,0 +1,14 @@
+/* u are my CSS from my HTML */
+/* v 0.1 */
+/** { box-sizing: border-box; }*/
+.grid {
+  padding: 0 auto;
+  margin: 0 auto;
+  background: #EEE;
+  /*max-width: 1920px;*/
+}
+
+.grid-item { width: 200px; }
+.grid-item img {width:inherit;}
+.grid-item--width2 { width: 400px; }
+.grid-item, .grid-item--width2{border:2px solid white;}
